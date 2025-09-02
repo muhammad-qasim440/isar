@@ -22,12 +22,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
-    if (project.android.hasProperty("namespace")) {
-        namespace 'dev.isar.isar_flutter_libs'
-    }
+    namespace "com.isar.flutter.libs"   // ✅ Keep only ONE namespace here
     
     compileSdkVersion 33
-namespace "com.isar.flutter.libs"
 
     defaultConfig {
         minSdkVersion 23
