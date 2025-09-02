@@ -27,6 +27,7 @@ android {
     }
     
     compileSdkVersion 33
+namespace "com.isar.flutter.libs"
 
     defaultConfig {
         minSdkVersion 23
